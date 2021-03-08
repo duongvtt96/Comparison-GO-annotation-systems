@@ -10,8 +10,7 @@ we discuss remaining major challenges and emphasize future directions for protei
 with GO.
 
 
-Description
-This repository provides relevant information about the comparison made between selected GO classifiers.
+
 
 
 Dataset used in this comparison: final benchmark CAFA3, can be found in the link below:
