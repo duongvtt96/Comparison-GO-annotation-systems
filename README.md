@@ -13,7 +13,7 @@ with GO.
 
 
 
-Dataset used in this comparison: final benchmark CAFA3, can be found in the link below:
+Dataset used in this comparison (final benchmark CAFA3) can be found in the link below:
 https://figshare.com/articles/dataset/Supplementary_data/8135393/3
 
 GO annotation systems used in this comparison:
@@ -28,12 +28,12 @@ https://github.com/ashleyzhou972/CAFA_assessment_tool/tree/v1.0-beta
 
 Folders in this repo:
 1. raw_prediction: contains raw output after running GO classifiers
-2. processed_prediction: transform data to the same format for the evaluation step
+2. processed_prediction: transform raw output to the same format for the evaluation step
 3. evaluation_results: contains scores after running evaluation tool
-4. go.OBO: GO database used for evaluation in the version of 08 December 2020.
+4. go.OBO: GO database used for evaluation (version of 08 December 2020).
 
 Note: 
-CAFA3 assessment tool produces scores of F_max, precision, recall in LK, NK type. We add scores of AUPR calculated from precision, recall and All (NK+LK) type.
+In the evaluation results, we addedd scores of AUPR; Precision, Recall at threshold of F_max, and All (NK+LK) type.
 
 
 
