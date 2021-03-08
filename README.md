@@ -31,7 +31,7 @@ https://github.com/ashleyzhou972/CAFA_assessment_tool/tree/v1.0-beta
 Folders/File in this repository:  
 1.raw_prediction: contains raw output after running GO classifiers  
 2.processed_prediction: transform raw output to the same format for the evaluation step  
-3.evaluation_results: contains scores after running evaluation tool  
+3.evaluation_result: contains scores after running evaluation tool  
 go.OBO: GO database used for evaluation (version of 08 December 2020).  
 
 Note: 
