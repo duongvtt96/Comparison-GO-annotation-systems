@@ -17,11 +17,9 @@ Dataset used in this comparison: final benchmark CAFA3, can be found in the link
 https://figshare.com/articles/dataset/Supplementary_data/8135393/3
 
 GO annotation systems used in this comparison:
-PFP: 
-https://kiharalab.org/web/pfp.php
-PANNZER2:
-http://ekhidna2.biocenter.helsinki.fi/sanspanz/
-DeepGOPlus package (kindly follow the requirements to run the package properly):
+1. PFP: https://kiharalab.org/web/pfp.php
+2. PANNZER2: http://ekhidna2.biocenter.helsinki.fi/sanspanz/
+3. DeepGOPlus package (kindly follow the requirements to run the package properly):
 https://github.com/bio-ontology-research-group/deepgoplus
 
 Evaluation tool provided by CAFA3:
