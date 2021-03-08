@@ -33,4 +33,4 @@ Folders/File in this repository:
 go.OBO: GO database used for evaluation (version of 08 December 2020).  
 
 Note: 
-In the evaluation results, we addedd scores of AUPR; Precision, Recall at threshold of F_max, and All (NK+LK) type.
+In the evaluation results, we added scores of AUPR; Precision, Recall at threshold of F_max, and All (NK+LK) type.
