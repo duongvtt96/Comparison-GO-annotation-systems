@@ -29,10 +29,11 @@ https://github.com/ashleyzhou972/CAFA_assessment_tool/tree/v1.0-beta
 
 
 Folders/File in this repository:  
-1.raw_prediction: contains raw output after running GO classifiers  
-2.processed_prediction: transform raw output to the same format for the evaluation step  
-3.evaluation_result: contains scores after running evaluation tool  
+1. raw_prediction: contains raw output after running GO classifiers  
+2. processed_prediction: raw output transformed to the same format for the evaluation step  
+3. evaluation_result: contains scores after running evaluation tool  
 go.OBO: GO database used for evaluation (version of 08 December 2020).  
 
 Note: 
-In the evaluation results, we added scores of AUPR; Precision, Recall at threshold of F_max, and All (NK+LK) type.
+1. In the evaluation results, we added scores of AUPR; Precision, Recall at threshold of F_max, and All (NK+LK) type.
+2. Raw predictions of PFP are not included as their size exceed 100MB.
