@@ -32,7 +32,7 @@ Folders/File in this repository:
 1. raw_prediction: contains raw output after running GO classifiers  
 2. processed_prediction: raw output transformed to the same format for the evaluation step  
 3. evaluation_result: contains scores after running evaluation tool  
-go.OBO: GO database used for evaluation (version of 08 December 2020).  
+4. go.OBO: GO database used for evaluation (version of 08 December 2020).  
 
 Note: 
 1. In the evaluation results, we added scores of AUPR; Precision, Recall at threshold of F_max, and All (NK+LK) type.
