@@ -17,11 +17,9 @@ Dataset used in this comparison (final benchmark CAFA3) can be found in the link
 https://figshare.com/articles/dataset/Supplementary_data/8135393/3
 
 GO annotation systems used in this comparison:
-1. PFP   
-https://kiharalab.org/web/pfp.php
-2. PANNZER2   
-http://ekhidna2.biocenter.helsinki.fi/sanspanz/
-3. DeepGOPlus package (kindly follow the requirements to run the package properly)    
+1. INGA
+https://inga.bio.unipd.it/
+2. DeepGOPlus   
 https://github.com/bio-ontology-research-group/deepgoplus
 
 Evaluation tool provided by CAFA3:
@@ -31,9 +29,9 @@ https://github.com/ashleyzhou972/CAFA_assessment_tool/tree/v1.0-beta
 Folders/File in this repository:  
 1. raw_prediction: contains raw output after running GO classifiers  
 2. processed_prediction: raw output transformed to the same format for the evaluation step  
-3. evaluation_result: contains scores after running evaluation tool  
-4. go.OBO: GO database used for evaluation (version of 08 December 2020).  
+3. evaluation_result: contains scores after running evaluation tool
 
 Note: 
-1. In the evaluation results, we added scores of AUPR; Precision, Recall at threshold of F_max, and All (NK+LK) type.
-2. Raw predictions of PFP are not included as their size exceed 100MB.
+1. In the evaluation results, we added scores of AUPR; Precision, Recall at threshold of F_max, and also computed for All (NK+LK) protein type.
+2. Raw predictions of INGA is provided at: https://inga.bio.unipd.it/documentation/cafa
+3. Raw predictions of DeepGOPlus received the same scores compared to the performance presented in their paper (when running evaluation.py file).
