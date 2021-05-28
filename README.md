@@ -17,7 +17,7 @@ Dataset used in this comparison (final benchmark CAFA3) can be found in the link
 https://figshare.com/articles/dataset/Supplementary_data/8135393/3
 
 GO annotation systems used in this comparison:
-1. INGA
+1. INGA  
 https://inga.bio.unipd.it/
 2. DeepGOPlus   
 https://github.com/bio-ontology-research-group/deepgoplus
