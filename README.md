@@ -34,4 +34,4 @@ Folders/File in this repository:
 Note: 
 1. In the evaluation results, we added scores of AUPR; Precision, Recall at threshold of F_max, and also computed for All (NK+LK) protein type.
 2. Raw predictions of INGA is provided at: https://inga.bio.unipd.it/documentation/cafa
-3. Raw predictions of DeepGOPlus received the same scores compared to the performance presented in their paper (when running evaluation.py file).
+3. Raw predictions of DeepGOPlus received the same scores compared to the performance presented in their paper (when running evaluate_deepgoplus.py file).
